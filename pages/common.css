@@ -4,11 +4,16 @@
 @import url("./explore.css");
 @import url("./profile.css");
 @import url("./quiz.css");
+@import url("./quiz-question.css");
+@import url("./quiz-result.css");
 .p-1 {
 	padding: 1rem;
 }
 .pv-1 {
 	padding: 1rem 0;
+}
+.m1 {
+	margin: 1rem;
 }
 .flex-vt-center {
 	display: flex;
@@ -16,8 +21,28 @@
 	align-items: center;
 	justify-content: center;
 }
+.flex-vt-space-bw {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
 .flex-hz-center {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.flex-hz-space-bw {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.full-width {
+	width: 100%;
+}
+.hide-element {
+	display: none;
+}
+.show-element {
+	display: block;
 }
