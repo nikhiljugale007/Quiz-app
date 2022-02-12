@@ -30,6 +30,20 @@ main {
 	gap: 0 2rem;
 }
 
+.score-container {
+	width: 35rem;
+	justify-self: center;
+	font-size: 2rem;
+	padding: 2rem;
+	border: 2px solid #000;
+	border-radius: 10px;
+}
+.two-column {
+	display: grid;
+	grid-template-columns: 1fr 10px 1fr;
+	/* background-color: red; */
+	gap: 1rem;
+}
 .question-container {
 	width: 50%;
 	justify-self: center;
