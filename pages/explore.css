@@ -47,6 +47,7 @@ main {
 }
 .category-heading {
 	padding: 2rem;
+	align-self: flex-start;
 }
 
 .category-card {
