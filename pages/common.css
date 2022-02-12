@@ -10,6 +10,9 @@
 .pv-1 {
 	padding: 1rem 0;
 }
+.m1 {
+	margin: 1rem;
+}
 .flex-vt-center {
 	display: flex;
 	flex-direction: column;
@@ -20,4 +23,18 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.flex-hz-space-bw {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.full-width {
+	width: 100%;
+}
+.hide-element {
+	display: none;
+}
+.show-element {
+	display: block;
 }
