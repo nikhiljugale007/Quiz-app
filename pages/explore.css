@@ -81,7 +81,10 @@ main {
 	transform: translate(-50%, -50%);
 	backdrop-filter: blur(2px);
 	z-index: 2;
-	color: white;
+}
+.show-on-hover span {
+	color: var(--complimentary-font-color);
+	background-color: var(--primary-color);
 }
 
 .category-card img {
