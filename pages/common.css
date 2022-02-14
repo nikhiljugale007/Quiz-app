@@ -10,6 +10,9 @@
 .pv-1 {
 	padding: 1rem 0;
 }
+.m1 {
+	margin: 1rem;
+}
 .flex-vt-center {
 	display: flex;
 	flex-direction: column;
