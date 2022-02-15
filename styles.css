@@ -77,7 +77,11 @@ main {
 	align-items: center;
 	justify-content: center;
 }
-.top-category,
+.top-category {
+	width: 100%;
+	padding: 2rem;
+}
+
 .category-heading {
 	padding: 2rem;
 }
